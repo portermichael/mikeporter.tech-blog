@@ -91,36 +91,6 @@ a {
 	}
 }
 
-.a-left-line {
-	height: 1px;
-	background-color: white;
-	margin: .3em 0;
-	width: 50%;
-	margin-left: -.3em;
-	position: relative;
-	overflow: hidden;
-
-	.runner {
-	  width: 30px;
-	  background: black;
-	  position: absolute;
-	  height: 5px;
-	  left: 0;
-	  bottom: 0;
-	  margin-left: -30px;
-	  -webkit-transition: all 2s ease-in;
-	          transition: all 2s ease-in;
-	}
-
-}
-
-.a-right-line {
-	border-bottom: 1px solid white;
-	margin: .3em 0;
-	margin-left: 50%;
-	margin-right: -.3em;
-}
-
 .pagination {
 	text-align: center;
 	.current_page {

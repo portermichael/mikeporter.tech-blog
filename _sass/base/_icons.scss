@@ -26,6 +26,32 @@ $icon-dimension: 1em;
 	}
 }
 
+.svg-container-logo {
+	@extend .svg-container;
+	position: left;
+	padding: $icon-dimension/2;
+	&.circled {
+		padding: $icon-dimension*1.5;
+	}
+	.icon {
+		width: $icon-dimension * 1.25;
+		height: $icon-dimension * 1.25;
+	}
+}
+
+.svg-container-medium {
+	@extend .svg-container;
+	position: left;
+	padding: $icon-dimension/2;
+	&.circled {
+		padding: $icon-dimension*1.5;
+	}
+	.icon {
+		width: $icon-dimension * 1.5;
+		height: $icon-dimension * 1.5;
+	}
+}
+
 .svg-container-large {
 	@extend .svg-container;
 	padding: $icon-dimension/2;
@@ -60,6 +86,14 @@ $icon-dimension: 1em;
 }
 
 // --- Color Variations for icons
+.icon-logo {
+	fill: $site-header-font-color;
+}
+
+.icon-nav {
+	fill: $nav-font-color;
+}
+
 .icon-black {
 	fill: #000;
 }

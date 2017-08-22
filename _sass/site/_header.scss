@@ -15,10 +15,8 @@
 
 // ---------- Logo
 .site-logo {
-
-	margin-top: 1.5em;
+	margin: 1.2em 0.5em 0 0.5em;
 	text-align: center;
-	text-shadow: 1px 1px 3px #888;
 
 	a {
 		color: $site-header-font-color;
@@ -26,33 +24,26 @@
 
 }
 
-.site-logo-image {
-	width: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	margin-bottom: .5em;
-}
-
 .site-title-link {
 	.site-title {
-		font-size: 3.5em;
+		font-size: 2.0em;
 		-webkit-transition: .2s all ease-out;
 		        transition: .2s all ease-out;
 		&:hover {
 			text-shadow: 2px 2px 3px $site-logo-font-shadow;
 		}
 	}
-	&:hover {
-		.runner {
-			margin-left: 100%;
-		}
-	}
+}
+
+.site-subtitle {
+	margin: 0 0.5em;
 }
 
 .site-slogan {
+	// display: inline;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-align: right;
-	margin-top: 1em;
-	margin-right: 1em;
+	margin-top: 0.5em;
+	margin-right: 0.5em;
 }

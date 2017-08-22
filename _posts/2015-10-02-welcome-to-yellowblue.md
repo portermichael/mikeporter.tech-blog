@@ -12,6 +12,8 @@ Yellowblue is perfect for your personal or professional blog, as it combines the
 
 Along with Jekyll's standard capabilities, Yellowblue gives you the option to use categories, tags, comments, even a contact page!
 
+<!-- more -->
+
 You can also have an archives page, neatly presenting your posts, organized by date.
 
 You also get a categories' list block, a tags' list block, pagination, SVG icons, subtle animations, hero images, detailed documentation, even an idea for a 404 page!

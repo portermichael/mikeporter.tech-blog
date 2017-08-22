@@ -1,68 +1,93 @@
 <nav class="site-nav">
 
   <ul>
-
     <li>
       <a href="{{ '/' | prepend:site.baseurl }}"> <!-- Place the link inside the double quotes -->
+        <div class="svg-container">
+          <svg class="icon icon-home icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-home"></use>
+          </svg>
+        </div>
         Home <!-- The text of the link -->
-        <div class="border1"></div>
-        <div class="border2"></div>
       </a>
     </li>
 
     <li>
-      <a href="{{ '/pattern-library' | prepend:site.baseurl }}"> <!-- Place the link inside the double quotes -->
-        Pattern Library <!-- The text of the link -->
-        <div class="border1"></div>
-        <div class="border2"></div>
+      <a href="{{ '/pattern-library' | prepend:site.baseurl }}">
+        <div class="svg-container">
+          <svg class="icon icon-stats icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-stats"></use>
+          </svg>
+        </div>
+        Portfolio
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" href="http://chalatz.github.io/yellowblue-docs/">
+        <div class="svg-container">
+          <svg class="icon icon-linkedin icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-linkedin"></use>
+          </svg>
+        </div>
+        LinkedIn
       </a>
     </li>
 
     <li>
       <a href="{{ '/archives' | prepend:site.baseurl }}">
+        <div class="svg-container">
+          <svg class="icon icon-folder icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-folder"></use>
+          </svg>
+        </div>
         Archives
-        <div class="border1"></div>
-        <div class="border2"></div>
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ '/icons' | prepend:site.baseurl }}">
-        Icons
-        <div class="border1"></div>
-        <div class="border2"></div>
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ '/404' | prepend:site.baseurl }}">
-        404
-        <div class="border1"></div>
-        <div class="border2"></div>
       </a>
     </li>
 
     <li>
       <a href="{{ '/contact' | prepend:site.baseurl }}">
+        <div class="svg-container">
+          <svg class="icon icon-bubble icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-bubble"></use>
+          </svg>
+        </div>
         Contact
-        <div class="border1"></div>
-        <div class="border2"></div>
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/contact' | prepend:site.baseurl }}">
+        <div class="svg-container">
+          <svg class="icon icon-user icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-user"></use>
+          </svg>
+        </div>
+        About
+      </a>
+    </li>
+
+    <li>
+      <a href="{{ '/contact' | prepend:site.baseurl }}">
+        <div class="svg-container">
+          <svg class="icon icon-bubble icon-blue" viewBox="0 0 32 32">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </div>
+        Github
       </a>
     </li>
 
     <li>
       <a target="_blank" href="http://chalatz.github.io/yellowblue-docs/">
         Documentation
-        <div class="border1"></div>
-        <div class="border2"></div>
-      
         <div class="svg-container">
           <svg class="icon icon-newtab icon-blue" viewBox="0 0 32 32">
             <use xlink:href="#icon-newtab"></use>
           </svg>
-        </div> 
-      </a>     
-    </li>    
+        </div>
+      </a>
+    </li>
 
   </ul>
 
