@@ -107,16 +107,13 @@ $outer-header-icon-fill: $dark-blue;
 .site-sidebar {
 	.module:nth-child(1) {
 		h2 {
-			background-color: $blue;
-			color: yellow;
-			.icon {
-				fill: yellow;
-			}
+			background-color: $main-color;
+			color: $font-color;
 		}
 	}
 	.module:nth-child(2) {
 		h2 {
-			background-color: $light-blue;
+			background-color: $main-color;
 		}
 	}
 }
