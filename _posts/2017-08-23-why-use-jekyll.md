@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Jekyll is Great for Static Applications
-categories: Jekyll
+category: Jekyll
 permalink: why-use-jekyll
-tags: ['Jekyll', 'Career']
+tag: ['Jekyll', 'Career']
 author: Michael Porter
 ---
 
