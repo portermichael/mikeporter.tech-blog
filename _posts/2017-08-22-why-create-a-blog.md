@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Create a Blog?
-categories: Career
+category: Career
 permalink: why-create-a-blog
 tags: ['Career']
 author: Michael Porter

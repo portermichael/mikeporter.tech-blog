@@ -1,7 +1,5 @@
-(function($){
-
-	function handle_show_code(){
-
+(function ($) {
+  function handle_show_code () {
 		var the_trigger = $('.show-me-the-code');
 		var the_code = the_trigger.next('pre');
 
@@ -46,6 +44,6 @@
 	//======= PLACE YOUR CUSTOM CODE BELOW THIS LINE ==========
 
 	//======= YOUR CUSTOM CODE SHOULD END ABOVE THIS LINE ==========
-	
+
 
 })(jQuery);
