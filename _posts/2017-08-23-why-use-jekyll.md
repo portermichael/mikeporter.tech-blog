@@ -50,7 +50,7 @@ Jekyll is very secure, but our plugins might cause security issues. Remember to 
 
 ### The Competition
 
-###### Wordpress
+#### Wordpress
 
 Today, the biggest webapp tool is definitely Wordpress. A lot of folks knock it for resource use, but it's huge strength is interface. Anyone can easily create a website on Wordpress with virtually no programming knowledge. Additionally, the more difficult to do things like handling database log-ins and transactions can be done with plugins. It's really easy to use and you can find a TON of sites that use Wordpress like The New York Times.
 
