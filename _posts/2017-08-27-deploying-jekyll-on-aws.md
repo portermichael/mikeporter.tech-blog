@@ -7,45 +7,25 @@ tags: ['Jekyll', 'Career', 'HowTo', 'Deploying']
 author: Michael Porter
 ---
 
-If you can serve your app in development, you should deploy it. It helps prevent you (the developer) from including changes that break deployment. I'll provide some different providers and link to deploying with them. I'll then go with what I use, AWS.
+If you can serve your app in development, you should deploy it. As a developer you want to fail fast<sup>1</sup>, you want to know what your app looks like live, you want to be able to make changes to it quickly and continuously integrate. You want to share your app.
+
+Deploy it already. It's ok that it's not ready.
 
 <!-- more -->
 
 ### Hosting Providers
 
-They are all pretty comparable. Using Azure(Microsoft) vs Google Cloud Storage vs AWS doesn't really differ. You can expect about 99.9% uptime and to pay less than a few dollars a month. If you want to go entirely free, you will lose your specific domain name. Heroku and Github pages provide free services.
+The big hosting providers are all pretty comparable. Using [Azure(Microsoft)](https://azure.microsoft.com/en-us/services/app-service/web/) vs [Google Cloud Storage](https://cloud.google.com/products/) vs [AWS](https://aws.amazon.com/) doesn't really differ. You can expect about 99.9%+ uptime and get a year free. If you want to go 100% entirely free forever, you will lose your specific domain name. [Heroku](https://www.heroku.com/) and [Github](https://pages.github.com/) pages provide free services.
 
-Amazon Web Services (AWS) is one of the best tools to use. The first year is mostly free, I am paying less than $1 a month now. It is reliable. They guarantee 99.9% uptime, you only pay for what you use and it scales very well.
-
-### Choosing Your Domain Name
-
-Choosing your domain name is a difficult process. It will require creativity and a good understanding of what "types" of names are still available. A lot of names have been taken and just held onto hoping for a time when someone will pay five figures or more. I recommend checking [Panabee](www.panabee.com) for some help brainstorming. They mix and match your name ideas and can help you step in the right direction.
-
-While choosing a great name is difficult, registering a name is incredibly easy. Some domain registrar companies even offer $.99 for your first domain name. SA few big DNRs are GoDaddy, Namecheap, Amazon Web Services and Google Domains.
-
-These DNRs also provide hosting services. It is easy to host on their service, but AWS and Google Domains have the cheapest and easiest hosting to upgrade. AWS and Google Domains both charge about $12 for registration, while GoDaddy and NameCheap charge anywhere from $.99 to $11.99.
-
-It should also be noted that GoDaddy has a reptuation for trying to upsell services. You will often get emails advertising 20% off your next registration and discounts they are offering. They also aren't the best about maintaining security, and are somewhat susceptable to social hacking.
-
-Namecheap used to be much cheaper than GoDaddy, with regard to hosting, but they are now about on par in terms of cost. Namecheap does not send you nearly as much in terms of email advertisements though.
-
-###### Using Your Domain Name with Another Host
-
-If you want to host with AWS, but chose a different DNR, you have to set up a nameserver change. This is fairly simple, but the exact process is slightly different for each DNR.
-
-To start create an account with [AWS](https://aws.amazon.com). You start with a mostly free year. We are then going to [Route 53](https://console.aws.amazon.com/route53).
-
-You can spend some time exploring the area, but Route 53 is a Domain Name System. We're going to create a hosted zone. When we create a hosted zone we get 4 values of type NS (name server). These are our domain name servers that we are going to tell our doman name registrar to use.
-
-This part is a also fairly simple, but different for each DNR. You need to find your nameservers for your domain name. You should go to a page that lists your registered domain names. Then you need to find a settings button that opens up settings for that particular domain name. There should be an option for nameservers, you are going to want to add custom name servers and put in the 4 values of type NS that we got when we created a hosted zone.
-
-For GoDaddy you need to migrate to My products, then in domains click manage, then there is a gear pull down for each domain. We are going to use that to navigate to Manage DNS. Here we chage our nameservers to custom and include our 4 from route 53.
+Amazon Web Services (AWS) is the one I am most experienced with, so it's the one I'll demonstrate<sup>2</sup>.
 
 #### Using S3_website to Host
 
 ###### Set Up S3 Buckets
 
-The first step to getting hosted is setting up an S3 AWS bucket. From route 53 click services in the header and migrate to S3. Today it is in the right most column, but I have heard they are revamping it soon.
+We [previously](https://www.mikeporter.tech/choosing-a-domain-name) went over how to set up your route 53 with your domain name.
+
+The first step to getting hosted is setting up an S3 AWS bucket. From route 53 click services in the header and migrate to S3.
 
 The S3 setup for AWS is also [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html) if you want to look at an alternative solution sources.
 
@@ -109,3 +89,10 @@ Finish up with
 and deploy with
 
 > s3_website push
+
+
+#### Footnotes
+
+1. Fail Fast - As a developer you want to fail quickly, so you are aware of a bug. It is much harder to correct a bug after you've written lots of code.
+
+2. I really believe all the big cloud storage providers are the same.
