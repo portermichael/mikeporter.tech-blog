@@ -7,9 +7,9 @@ tags: ['Jekyll', 'Career', 'HowTo', 'Deploying']
 author: Michael Porter
 ---
 
-If you can serve your app in development, you should deploy it. As a developer you want to fail fast<sup>1</sup>, you want to know what your app looks like live, you want to be able to make changes to it quickly and continuously integrate. You want to share your app.
+If you can serve your app in development, you should deploy it. As a developer you want to share your app, you want to fail fast<sup>1</sup>, you want to make changes quickly and continuously integrate.
 
-Deploy it already. It's ok that it's not ready.
+It all revolves around deployment.
 
 <!-- more -->
 
@@ -95,4 +95,4 @@ and deploy with
 
 1. Fail Fast - As a developer you want to fail quickly, so you are aware of a bug. It is much harder to correct a bug after you've written lots of code.
 
-2. I really believe all the big cloud storage providers are the same.
+2. I really believe all the big cloud storage providers are the same. Use whichever is most appealing to you.
