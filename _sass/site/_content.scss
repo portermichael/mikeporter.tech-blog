@@ -90,10 +90,9 @@
 }
 
 .outside-header {
-	font-style: italic;
-	color: $outer-header-color;
+	color: $font-color;
 	text-shadow: 1px 1px 1px $outer-header-shadow-color;
-	background-color: blue;
+	background-color: $main-color;
 	padding: 0.25em 0;
 	.icon {
 		fill: $outer-header-icon-fill;
