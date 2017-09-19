@@ -93,6 +93,8 @@
 	font-style: italic;
 	color: $outer-header-color;
 	text-shadow: 1px 1px 1px $outer-header-shadow-color;
+	background-color: blue;
+	padding: 0.25em 0;
 	.icon {
 		fill: $outer-header-icon-fill;
 	}
