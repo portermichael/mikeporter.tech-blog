@@ -38,10 +38,13 @@
 	@include breakpoint(medium){
 		width: 33.33%;
 		float: left;
+		position: sticky;
+		top: 1em;
 	}
 
 	.post-page & {
-		width: 100%;
+		display: inline;
+		width: 50%;
 	}
 
 }
