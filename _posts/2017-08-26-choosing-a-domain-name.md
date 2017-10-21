@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Choosing a Domain Name
-category: Deploying
-permalink: choosing-a-domain-name
-tags: ['HowTo', 'Deploying']
+category: Deploy
+permalink: choosing-a-domain-name.html
+tags: ['HowTo', 'Deploy']
 author: Michael Porter
 ---
 

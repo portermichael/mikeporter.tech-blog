@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Deploying Jekyll on AWS
+title: Associating Domains with AWS through Route 53
 category: Deploy
-permalink: deploying-jekyll-on-aws
-tags: ['Jekyll', 'Career', 'HowTo', 'Deploy']
+permalink: associate-domain-with-aws-through-route-53
+tags: ['HowTo', 'Deploy', 'GoDaddy', 'NameCheap', 'Route 53']
 author: Michael Porter
 ---
+
 
 If you can serve your app in development, you should deploy it. As a developer you want to share your app, you want to fail fast<sup>1</sup>, you want to make changes quickly and continuously integrate.
 

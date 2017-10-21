@@ -2,7 +2,7 @@
 layout: post
 title: Why Create a Blog?
 category: Career
-permalink: why-create-a-blog
+permalink: why-create-a-blog.html
 tags: ['Career']
 author: Michael Porter
 ---
