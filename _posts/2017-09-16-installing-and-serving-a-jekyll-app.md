@@ -3,11 +3,11 @@ layout: post
 title: Installing and Serving a Jekyll App
 category: Jekyll
 permalink: installing-and-serving-a-jekyll-app.html
-tag: ['Jekyll', 'Career', 'HowTo']
+tag: ['HowTo']
 author: Michael Porter
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install Ruby following the links below. Then follow the Jekyll link to documentation or follow my directions.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Getting started with Jekyll is quick and easy. In about 20 minutes you can have a site running and ready to publish posts. First, install Ruby following the links below, then use the Jekyll link to documentation or follow my directions.
 
 <!-- more -->
 

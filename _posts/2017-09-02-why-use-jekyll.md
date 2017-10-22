@@ -3,7 +3,7 @@ layout: post
 title: What is Jekyll Good for?
 category: Jekyll
 permalink: what-is-jekyll-good-for.html
-tag: ['Jekyll', 'Career']
+tag: []
 author: Michael Porter
 ---
 

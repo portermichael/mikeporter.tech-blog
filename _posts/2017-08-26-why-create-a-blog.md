@@ -3,7 +3,7 @@ layout: post
 title: Why Create a Blog?
 category: Career
 permalink: why-create-a-blog.html
-tags: ['Career']
+tags: ['Blog']
 author: Michael Porter
 ---
 
@@ -13,9 +13,9 @@ author: Michael Porter
 
 ### The Soft-Clock
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software positions have a  preference for folks who enjoy programming in their off-time. We should strive to maintain a good work life balance, but great people in their field are involved in and think about their work off the clock too.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software positions have a  preference for folks who enjoy programming in their off-time. We should strive to maintain a good work life balance, but great people in any field are involved in and think about their work off the clock too.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can call this idea a soft-clock. We aren't in the zone "working", but it's around us. The soft-clock is like networking at a MeetUp, thinking about a problem while mowing the lawn or creating a blog. We're advancing our careers by investing time in the field, but it's not necessarily for whom we currently work for.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We can call this idea a soft-clock. We aren't in the zone "working", but it's around us. The soft-clock is like networking at a MeetUp, thinking about a problem while mowing the lawn or creating a blog. We're advancing our careers by investing time in the field, but generally not getting paid for it or with the same degree of focus. We're rather investing our time into networking, or becoming better in our field. Which can lead to better career opportunities in the future!
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The soft-clock is not taking a work call while playing with your kids. That's real work, and we need a life outside of work. That said we need a life outside the soft-clock too! Make sure you have time for yourself, your friends and your family.
 
