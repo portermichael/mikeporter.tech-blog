@@ -3,7 +3,7 @@ title: Mike Porter Blog
 email: Porter.Michael.James@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Mike Porter's programming blog. I write tutorials and information in a clear manner that I can later reference.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "mikeporter.tech" # the subpath of your site, e.g. /blog/
 url: "mikeporter.tech" # the base hostname & protocol for your site
 twitter_username: mikeporterr
 github_username:  portermichael
