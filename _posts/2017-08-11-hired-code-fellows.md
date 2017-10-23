@@ -12,7 +12,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hired Code Fellows](https://hired-codefellows.herokuapp.com/) is deployed on Heroku. (Front-end and Back-end dynos may take a few moments to spin up!)
 
-![Hired Code Fellows]({{ '/images/portfolio/hiredCodeFellows.png' | absolute_url }})
+![Hired Code Fellows](../../images/portfolio/hiredCodeFellows.png)
 
 <!-- more -->
 

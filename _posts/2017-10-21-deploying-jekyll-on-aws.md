@@ -23,7 +23,7 @@ author: Michael Porter
 
 ###### Set Up S3 Buckets
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ '/associating-domains-with-aws-route-53.html' | absolute_url}}) went over how to set up your route 53 with your domain name.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ 'associating-domains-with-aws-route-53.html' }}) went over how to set up your route 53 with your domain name.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first step to getting hosted is setting up an S3 AWS bucket. From route 53 click services in the header and migrate to S3.
 

@@ -12,7 +12,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trivia Ninja](https://trivia-ninja.herokuapp.com/) is deployed on Heroku. (Dynos may take a few moments to spin up!)
 
-![Trivia Ninja]({{ '/images/portfolio/triviaNinja.png' | absolute_url }})
+![Trivia Ninja](/../../images/portfolio/triviaNinja.png)
 
 <!-- more -->
 

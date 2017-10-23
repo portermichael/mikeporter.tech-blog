@@ -10,7 +10,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[El Elephante](https://scratch.mit.edu/projects/3227285/#player)
 
-![El Elephante]({{ '/images/portfolio/elElephante.png' | absolute_url }})
+![El Elephante](/../../images/portfolio/elElephante.png)
 
 <!-- more -->
 

@@ -12,7 +12,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Shows Today](https://www.amazon.com/MikePorter-Local-Shows-Today/dp/B0746F5QHF/) is deployed to the Amazon Store.
 
-![Local Shows Today]({{ '/images/portfolio/localShowsToday.png' | absolute_url }})
+![Local Shows Today](/../../images/portfolio/localShowsToday.png)
 
 <!-- more -->
 

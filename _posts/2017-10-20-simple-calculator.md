@@ -12,7 +12,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator](https://simple-calculator-mike.herokuapp.com/) is deployed on Heroku. (Dynos may take a few moments to spin up!)
 
-![Simple Calculator]({{ '/images/portfolio/simpleCalculator.png' | absolute_url }})
+![Simple Calculator](/../../images/portfolio/simpleCalculator.png)
 
 <!-- more -->
 

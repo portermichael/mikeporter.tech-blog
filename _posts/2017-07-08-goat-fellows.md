@@ -13,7 +13,7 @@ author: Michael Porter
 
 A back-end API only project.
 
-![Goat Fellows]({{ '/images/portfolio/goatFellows.png' | absolute_url }})
+![Goat Fellows](/../../images/portfolio/goatFellows.png)
 
 <!-- more -->
 
