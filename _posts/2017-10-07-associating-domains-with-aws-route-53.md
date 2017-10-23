@@ -2,7 +2,7 @@
 layout: post
 title: Associating Domains with AWS Route 53
 category: Deploy
-permalink: associating-domains-with-aws-route-53
+permalink: associating-domains-with-aws-route-53.html
 tags: ['HowTo', 'AWS', 'Route53']
 author: Michael Porter
 ---

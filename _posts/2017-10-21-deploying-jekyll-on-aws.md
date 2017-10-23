@@ -2,7 +2,7 @@
 layout: post
 title: Deploying Jekyll on AWS
 category: Deploy
-permalink: deploying-jekyll-on-aws
+permalink: deploying-jekyll-on-aws.html
 tags: ['HowTo']
 author: Michael Porter
 ---

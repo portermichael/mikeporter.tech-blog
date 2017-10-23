@@ -74,10 +74,10 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you do have skill in Node.js, GO or another language you should definitely use the static site generator in that language. With a quick google search you can find a framework that supports your language of choice.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I chose Jekyll because I wanted to try out a static site generator and am familiar with Ruby. I considered something more robust, but valued speed and price most.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I chose Jekyll because I wanted to try out a static site generator and am familiar with Ruby. I considered something with more bells and whistles, but valued speed and price most.
 
 ##### Footnotes:
 
-1. Every time a static site is updated, it's taken down for a few minutes. For me, that doesn't matter, but a large blogger should schedule these during off hours or use a different tool.
+1. Every time a static site is updated, it's taken down for a few moments. It used to be minutes, but now it looks like seconds, if even that long. For me, this downtime doesn't matter.
 
 2. Paradigms of programming includes concepts like DRY - Don't repeat yourself. If you are repeating yourself over several sections, and you decide to make a change, you now have to make this change over several sections. This is both error prone (typos) and time consuming.
