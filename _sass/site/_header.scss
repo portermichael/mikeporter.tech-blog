@@ -6,7 +6,9 @@
 
 .site-header {
 
-	background: $site-header-bg;
+	// background: $site-header-bg;
+	background-image: url('/images/elElephanteHeroFinal.png');
+	background-size: cover;
 	color: $site-header-font-color;
 
 	overflow: hidden;
@@ -42,7 +44,7 @@
 .site-slogan {
 	// display: inline;
 	font-style: italic;
-	font-size: 1.2em;
+	font-size: 1.0em;
 	text-align: right;
 	margin-top: 0.5em;
 	margin-right: 0.5em;

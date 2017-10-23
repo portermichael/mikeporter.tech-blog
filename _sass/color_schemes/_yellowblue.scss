@@ -1,30 +1,30 @@
 // ------- Yellowblue -------------------
 
-$main-color: #DACBBD;
+$main-color: #B9DEB9;
 
 // --- Body
 $font-color: #000000;
-$bg-color: #9d9d9d;
-$link-color: #0000ee;
+$bg-color: #C9C9C9;
+$link-color: $blue;
 
 // ---- Header
-$site-header-bg: darken($bg-color, 45%);
-$site-header-font-color: #fff;
+$site-header-bg: #7EA470;
+$site-header-font-color: #ffffff;
 $site-logo-font-shadow: #000;
 
 // ---- Navigation
 $nav-bg-color: $main-color;
-$nav-font-color: #0000ee;
+$nav-font-color: $blue;
 $nav-item-underline-color: darken($bg-color, 40%);
 $nav-item-underline-hover-color: $bg-color;
 
 // ---- Posts
 $post-title-hover-color: $blue;
-$read-more-bg: $bg-color;
+$read-more-bg: $site-header-bg;
 $read-more-cross-bg: $main-color;
 $read-more-font-color: #000;
-$read-more-hover-bg: $blue;
-$read-more-hover-color: #fff;
+$read-more-hover-bg: $main-color;
+$read-more-hover-color: #000;
 $hero-image-shadow: $dark-blue;
 $category-link-color: $dark-blue;
 $category-link-color-visited: $dark-blue;

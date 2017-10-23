@@ -65,16 +65,6 @@ layout: post_page
 			</div>
 		{% endif %}
 
-		{% if page.comments == null and site.comments %}
-			{% include comments.html %}
-		{% endif %}
-		{% if page.comments and site.comments %}
-			{% include comments.html %}
-		{% endif %}
-		{% if page.comments and site.comments == false %}
-			{% include comments.html %}
-		{% endif %}
-
 	</div>
 
 	<div class="posts-nav">
