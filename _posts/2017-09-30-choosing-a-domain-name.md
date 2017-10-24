@@ -23,12 +23,17 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a focus, but no real good words yet. I like to browse the [thesaurus](http://www.thesaurus.com/){:target='_blank'} to help expand my list. I'll input school, browse the similar words and record words or concepts I like. I will take those additional words and browse those in the thesaurus too. My goal here is to find phrases or concepts that represent my educational focus, are short, and are easy to spell. After doing this for a while, I might add 10-15 words that fit.
 
-> School Hall Education Graduation Grad High Elementary Middle Grade
+Thesaurus.com
+![Thesaurus Example](/../../images/posts/choosing-a-domain-name/thesaurus.png)
+
+> School Hall Education Graduation Grad High Department Category
 > University College Tutor Assistant Teach
 
 #### Get an Idea of What Words are Available
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a list of solid words, some of which might be available. But we have to check what is available! I like to use [Panabee](www.panabee.com){:target='_blank'} at this step. It searches a word or combination of words and does a bit of word play like replacing e's with i's, and about 30 other 'tricks'. Based on the search results, we can get an idea of how sought after our word or combination is. We can use the search results to expand our brainstorming a bit too!
+
+![Panabee Example](/../../images/posts/choosing-a-domain-name/panabee.png)
 
 > School Hall Education Graduation Grad High Elementary Middle Grade
 > University College Tutor Assistant Teach Teachy Teachi Schooly Gradi EdYouCation
@@ -44,6 +49,8 @@ author: Michael Porter
 #### Alternatives to TLDs
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternatives to TLDs are available, and often for less than a dollar a piece. They can be checked, often 50 or so at a time, at all the domain name services, including: [GoDaddy](https://www.godaddy.com/){:target='_blank'}, [Namecheap](https://www.namecheap.com/){:target='_blank'}, [Amazon Web Services](https://aws.amazon.com/route53/){:target='_blank'}, [Microsoft Azure](https://azure.microsoft.com/en-us/services/dns/){:target='_blank'} and [Google Domains](https://domains.google/){:target='_blank'}.
+
+![Batch Search Example](/../../images/posts/choosing-a-domain-name/namecheap.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I bought mikeporter.tech for 88c. Although on name cheap it will jump to $40 next year. That's 3x more than the $10-15 I would expect to renew a TLD. So, while we can definitely expect a cheaper initial cost for an alternative, there is a bit of price gouging afterwards. My intention is to transfer this domain to a cheaper alternative next year, and see if I can get a $15 dollar renewal.
 
@@ -68,6 +75,6 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I personally, feel most comfortable registering my domain name and hosting with different providers. I prefer having specialized businesses doing what they do with a focus on the product I'm using in the long term. I also prefer separating how many businesses control aspects I depend on. Should NameCheap have an issue with my specific domain name, I know it will affect their primary business focus and that I have some leverage should I be treated unjustly. If I have the same issue with Amazon, I don't feel that I have as much leverage. But AWS is a major aspect of Amazon's business model, so I do feel more comfortable there. This is just personal preference, take it with a grain of salt.
 
-#### Buying a Squatted Domain
+#### Buying a Squatted or Expired Domain
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A lot of domains are held in the hopes someone will buy them. You can find out who owns it, and send them an email with your story and an offer. Sometimes you'll get lucky, ...other times it will cost thousands. There are numerous businesses built entirely around this process of buying and selling beyond the scope of this post.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A lot of domains are held in the hopes someone will buy them. You can find out who owns it, and send them an email with your story and an offer. Sometimes you'll get lucky, ...other times it will cost thousands and sometimes they will expire. There are numerous businesses built entirely around this process of buying and selling beyond the scope of this post. Do some googlefu to find articles related to those topics if you are interested.
