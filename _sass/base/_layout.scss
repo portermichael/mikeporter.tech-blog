@@ -61,25 +61,6 @@
 }
 
 /**
- * Modules and tables with a .light-blue-var (light blue variation) class have their headings with a light blue background
- */
-.light-blue-var {
-	h3,h2, th {
-		background: $light-blue;
-	}
-}
-
-/**
- * Modules and tables with a .blue-var (blue variation) class have their headings with a blue background
- */
-.blue-var {
-	h3,h2, th {
-		background: $blue;
-		color: yellow;
-	}
-}
-
-/**
  * ======= Grid widths =============
  */
 .full-width {
