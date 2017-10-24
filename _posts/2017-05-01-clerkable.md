@@ -8,11 +8,11 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clerkable is a video based product comparison tool built in Ruby on Rails.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Clerkable Code](https://github.com/portermichael/clerkable)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Clerkable Code](https://github.com/portermichael/clerkable){:target='_blank'}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigate to Electronics then Streaming Devices to see full app functionality. It's hacky, but this is an older version with the best visuals. [Clerkable](https://clerkable.herokuapp.com/) is deployed on Heroku. (Dynos may take a few moments to spin up!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigate to Electronics then Streaming Devices to see full app functionality. It's hacky, but this is an older version with the best visuals. [Clerkable](https://clerkable.herokuapp.com/){:target='_blank'} is deployed on Heroku. (Dynos may take a few moments to spin up!)
 
-![Clerkable]({{ '/images/portfolio/clerkable.png' | absolute_url }})
+![Clerkable](/../../images/portfolio/clerkable.png)
 
 <!-- more -->
 

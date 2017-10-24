@@ -8,11 +8,11 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Local Shows Today is the cure for the boring afternoon. It is an Alexa skill that gives shows and events available in US cities via voice commands.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Shows Today Code](https://github.com/portermichael/LocalShowsToday)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Shows Today Code](https://github.com/portermichael/LocalShowsToday){:target='_blank'}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Shows Today](https://www.amazon.com/MikePorter-Local-Shows-Today/dp/B0746F5QHF/) is deployed to the Amazon Store.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Local Shows Today](https://www.amazon.com/MikePorter-Local-Shows-Today/dp/B0746F5QHF/){:target='_blank'} is deployed to the Amazon Store.
 
-![Local Shows Today]({{ '/images/portfolio/localShowsToday.png' | absolute_url }})
+![Local Shows Today](/../../images/portfolio/localShowsToday.png)
 
 <!-- more -->
 

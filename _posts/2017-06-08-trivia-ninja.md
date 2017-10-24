@@ -8,11 +8,11 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trivia Ninja is the solution to sharpening the ninja mind. With over 3000 unique questions, multiple difficulties and a freeplay mode, a ninja can keep their most valuable tool well trained and ready for action!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trivia Ninja Code](https://github.com/portermichael/Trivia-Ninja-Group-Project)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trivia Ninja Code](https://github.com/portermichael/Trivia-Ninja-Group-Project){:target='_blank'}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trivia Ninja](https://trivia-ninja.herokuapp.com/) is deployed on Heroku. (Dynos may take a few moments to spin up!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Trivia Ninja](https://trivia-ninja.herokuapp.com/){:target='_blank'} is deployed on Heroku. (Dynos may take a few moments to spin up!)
 
-![Trivia Ninja]({{ '/images/portfolio/triviaNinja.png' | absolute_url }})
+![Trivia Ninja](/../../images/portfolio/triviaNinja.png)
 
 <!-- more -->
 

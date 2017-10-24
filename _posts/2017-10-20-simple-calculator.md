@@ -8,11 +8,11 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Calculator is the simple calculator for modern users. Without a sleeker design and less unnecessary buttons, simple calculator is easier and simpler to use. (Warning! Simple Calculator was built to discuss code, it is not necessarily easier or simpler to use!)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator Code](https://github.com/portermichael/calculator)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator Code](https://github.com/portermichael/calculator){:target='_blank'}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator](https://simple-calculator-mike.herokuapp.com/) is deployed on Heroku. (Dynos may take a few moments to spin up!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator](https://simple-calculator-mike.herokuapp.com/){:target='_blank'} is deployed on Heroku. (Dynos may take a few moments to spin up!)
 
-![Simple Calculator]({{ '/images/portfolio/simpleCalculator.png' | absolute_url }})
+![Simple Calculator](/../../images/portfolio/simpleCalculator.png)
 
 <!-- more -->
 

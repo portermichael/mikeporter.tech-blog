@@ -15,19 +15,15 @@ author: Michael Porter
 
 ### Hosting Providers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The big hosting providers are all pretty comparable. Using [Azure(Microsoft)](https://azure.microsoft.com/en-us/services/app-service/web/) vs [Google Cloud Storage](https://cloud.google.com/products/) vs [AWS](https://aws.amazon.com/) doesn't really differ. You can expect about 99.9%+ uptime and get a year free. If you want to go 100% entirely free forever, you will lose your specific domain name. [Heroku](https://www.heroku.com/) and [Github](https://pages.github.com/) pages provide free services.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amazon Web Services (AWS) is the one I am most experienced with, so it's the one I'll demonstrate<sup>2</sup>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ 'associating-domains-with-aws-route-53.html' }}) went over how to set up your route 53 with GoDaddy and NameCheap domain names.
 
 #### Using S3_website to Host
 
 ###### Set Up S3 Buckets
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ '/associating-domains-with-aws-route-53' | absolute_url}}) went over how to set up your route 53 with your domain name.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first step to getting hosted is setting up an S3 AWS bucket. From route 53 click services in the header and migrate to S3.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The S3 setup for AWS is also [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html) if you want to look at an alternative solution sources.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The S3 setup for AWS is also [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html){:target='_blank'} if you want to look at an alternative solution sources.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will want to create two buckets. We don't need logging, but you could if you want to log your visitors.
 
@@ -60,7 +56,7 @@ author: Michael Porter
 
 ###### Using s3_website gem
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The instructions linked to above from amazon are cumbersome. There are a lot of steps to set up a static website, that we can avoid by using [s3_website gem](https://github.com/laurilehmijoki/s3_website)! First we need to install the gem
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The instructions linked to above from amazon are cumbersome. There are a lot of steps to set up a static website, that we can avoid by using [s3_website gem](https://github.com/laurilehmijoki/s3_website){:target='_blank'}! First we need to install the gem
 
 > gem install s3_website
 
