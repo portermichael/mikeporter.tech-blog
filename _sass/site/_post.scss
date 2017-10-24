@@ -75,7 +75,7 @@
 			color: $read-more-hover-color;
 		}
 		.cross {
-			background: darken($read-more-cross-bg, 15%);
+			background: $read-more-cross-hover-bg;
 		}
 	}
 }
