@@ -8,9 +8,9 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hired Code Fellows is the unbiased resume app designed to match graduated student skills with hiring partner positions!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hired Code Fellows Code](https://github.com/portermichael/Hired-CodeFellows)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hired Code Fellows Code](https://github.com/portermichael/Hired-CodeFellows){:target='_blank'}
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hired Code Fellows](https://hired-codefellows.herokuapp.com/) is deployed on Heroku. (Front-end and Back-end dynos may take a few moments to spin up!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hired Code Fellows](https://hired-codefellows.herokuapp.com/){:target='_blank'} is deployed on Heroku. (Front-end and Back-end dynos may take a few moments to spin up!)
 
 ![Hired Code Fellows](../../images/portfolio/hiredCodeFellows.png)
 

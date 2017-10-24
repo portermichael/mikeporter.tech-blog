@@ -9,7 +9,7 @@ author: Michael Porter
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goat Fellows is a tool to help connect people and goats that need attention. Regardless of the need, individuals are able to give a detailed account of the situation, and 'Goat Guardians' are able to assist.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Goat Fellows Code](https://github.com/portermichael/goat-fellows)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Goat Fellows Code](https://github.com/portermichael/goat-fellows){:target='_blank'}
 
 A back-end API only project.
 

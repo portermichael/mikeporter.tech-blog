@@ -21,14 +21,14 @@ author: Michael Porter
 
 #### Expand Brainstorming with a Thesaurus
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a focus, but no real good words yet. I like to browse the [thesaurus](http://www.thesaurus.com/) to help expand my list. I'll input school, browse the similar words and record words or concepts I like. I will take those additional words and browse those in the thesaurus too. My goal here is to find phrases or concepts that represent my educational focus, are short, and are easy to spell. After doing this for a while, I might add 10-15 words that fit.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a focus, but no real good words yet. I like to browse the [thesaurus](http://www.thesaurus.com/){:target='_blank'} to help expand my list. I'll input school, browse the similar words and record words or concepts I like. I will take those additional words and browse those in the thesaurus too. My goal here is to find phrases or concepts that represent my educational focus, are short, and are easy to spell. After doing this for a while, I might add 10-15 words that fit.
 
 > School Hall Education Graduation Grad High Elementary Middle Grade
 > University College Tutor Assistant Teach
 
 #### Get an Idea of What Words are Available
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a list of solid words, some of which might be available. But we have to check what is available! I like to use [Panabee](www.panabee.com) at this step. It searches a word or combination of words and does a bit of word play like replacing e's with i's, and about 30 other 'tricks'. Based on the search results, we can get an idea of how sought after our word or combination is. We can use the search results to expand our brainstorming a bit too!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've got a list of solid words, some of which might be available. But we have to check what is available! I like to use [Panabee](www.panabee.com){:target='_blank'} at this step. It searches a word or combination of words and does a bit of word play like replacing e's with i's, and about 30 other 'tricks'. Based on the search results, we can get an idea of how sought after our word or combination is. We can use the search results to expand our brainstorming a bit too!
 
 > School Hall Education Graduation Grad High Elementary Middle Grade
 > University College Tutor Assistant Teach Teachy Teachi Schooly Gradi EdYouCation
@@ -43,7 +43,7 @@ author: Michael Porter
 
 #### Alternatives to TLDs
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternatives to TLDs are available, and often for less than a dollar a piece. They can be checked, often 50 or so at a time, at all the domain name services, including: [GoDaddy](https://www.godaddy.com/), [Namecheap](https://www.namecheap.com/), [Amazon Web Services](https://aws.amazon.com/route53/), [Microsoft Azure](https://azure.microsoft.com/en-us/services/dns/) and [Google Domains](https://domains.google/).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternatives to TLDs are available, and often for less than a dollar a piece. They can be checked, often 50 or so at a time, at all the domain name services, including: [GoDaddy](https://www.godaddy.com/){:target='_blank'}, [Namecheap](https://www.namecheap.com/){:target='_blank'}, [Amazon Web Services](https://aws.amazon.com/route53/){:target='_blank'}, [Microsoft Azure](https://azure.microsoft.com/en-us/services/dns/){:target='_blank'} and [Google Domains](https://domains.google/){:target='_blank'}.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I bought mikeporter.tech for 88c. Although on name cheap it will jump to $40 next year. That's 3x more than the $10-15 I would expect to renew a TLD. So, while we can definitely expect a cheaper initial cost for an alternative, there is a bit of price gouging afterwards. My intention is to transfer this domain to a cheaper alternative next year, and see if I can get a $15 dollar renewal.
 
@@ -56,11 +56,11 @@ author: Michael Porter
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Choosing a great open TLD is a difficult process, but I shared with you what I did, and I've had some choices I'm very happy with. Exercising your creativity along with a good understanding of what "types" of names are still available is the real key.
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While choosing a great name is difficult, registering a name is incredibly easy. Some DNRs (domain name registrars) even offer $.99 for your first domain name. A few big DNRs are [GoDaddy](https://www.godaddy.com/), [Namecheap](https://www.namecheap.com/), [Amazon Web Services](https://aws.amazon.com/route53/), [Microsoft Azure](https://azure.microsoft.com/en-us/services/dns/) and [Google Domains](https://domains.google/).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;While choosing a great name is difficult, registering a name is incredibly easy. Some DNRs (domain name registrars) even offer $.99 for your first domain name. A few big DNRs are [GoDaddy](https://www.godaddy.com/){:target='_blank'}, [Namecheap](https://www.namecheap.com/){:target='_blank'}, [Amazon Web Services](https://aws.amazon.com/route53/){:target='_blank'}, [Microsoft Azure](https://azure.microsoft.com/en-us/services/dns/){:target='_blank'} and [Google Domains](https://domains.google/){:target='_blank'}.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;These DNRs also provide hosting services. It is easy to host on their service, but Amazon Web Services, Google Domains and Microsoft Azure have the cheapest and easiest hosting to upgrade. AWS, Azure and Google Domains both charge about $12 for registration, while GoDaddy and NameCheap charge anywhere from $.99 to $11.99.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It should also be noted that GoDaddy has a reputation for trying to up-sell services. You will often get emails advertising 20-30% off your next registration and other advertisements. But I've been skeptical of them ever since this [article](https://medium.com/@N/how-i-lost-my-50-000-twitter-username-24eb09e026dd) came out. My concern is that this social engineering issue is endemic in the company and I do not recommend them. That's excluding their past of overly sexual commercials for buying domain names.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It should also be noted that GoDaddy has a reputation for trying to up-sell services. You will often get emails advertising 20-30% off your next registration and other advertisements. But I've been skeptical of them ever since this [article](https://medium.com/@N/how-i-lost-my-50-000-twitter-username-24eb09e026dd){:target='_blank'} came out. My concern is that this social engineering issue is endemic in the company and I do not recommend them. That's excluding their past of overly sexual commercials for buying domain names.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Namecheap used to be much cheaper than GoDaddy, with regard to hosting, but they are now about on par in terms of cost. Namecheap does not send you nearly as much in terms of email advertisements, and hasn't had the same bad PR.
 

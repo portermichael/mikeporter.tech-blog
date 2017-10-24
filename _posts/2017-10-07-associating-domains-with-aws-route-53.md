@@ -18,7 +18,7 @@ author: Michael Porter
 
 #### Hosting Providers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The big hosting providers are all pretty comparable. Using [Azure(Microsoft)](https://azure.microsoft.com/en-us/services/app-service/web/) vs [Google Cloud Storage](https://cloud.google.com/products/) vs [AWS](https://aws.amazon.com/) doesn't really differ. You can expect about 99.9%+ uptime and get a year free. You cannot go 100% entirely free forever and have a specific domain name. [Heroku](https://www.heroku.com/) and [Github](https://pages.github.com/) pages provide free services, but you end up with something complex and hard to type like mywebsite.heroku.app. It's just not the same as mywebsite.com.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The big hosting providers are all pretty comparable. Using [Azure(Microsoft)](https://azure.microsoft.com/en-us/services/app-service/web/){:target='_blank'} vs [Google Cloud Storage](https://cloud.google.com/products/){:target='_blank'} vs [AWS](https://aws.amazon.com/){:target='_blank'} doesn't really differ. You can expect about 99.9%+ uptime and get a year free. You cannot go 100% entirely free forever and have a specific domain name. [Heroku](https://www.heroku.com/){:target='_blank'} and [Github](https://pages.github.com/){:target='_blank'} pages provide free services, but you end up with something complex and hard to type like mywebsite.heroku.app. It's just not the same as mywebsite.com.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Amazon Web Services (AWS) is the one I am most experienced with, so it's the one I'll demonstrate<sup>1</sup>.
 
@@ -26,7 +26,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want to host with AWS, but chose a different DNR, you have to set up a nameserver change. This is fairly simple, but the exact process is slightly different for each DNR.
 
-Start by creating an [AWS account](https://aws.amazon.com). We are then going to [Route 53](https://console.aws.amazon.com/route53).
+Start by creating an [AWS account](https://aws.amazon.com){:target='_blank'}. We are then going to [Route 53](https://console.aws.amazon.com/route53){:target='_blank'}.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can spend some time exploring the area, but Route 53 is a Domain Name System. We're going to create a hosted zone. When we create a hosted zone we get 4 values of type NS (name server). These are our domain name servers that we are going to tell our domain name registrar to use. Copy them into a text file.
 

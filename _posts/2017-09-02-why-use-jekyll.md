@@ -45,7 +45,7 @@ author: Michael Porter
 
 #### SEO Optimization Wonky
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEO optimization generally has to be done manually. SEO optimization gets webapp pages hitting higher on unpaid search results. There are a lot of factors to take into consideration, but generally optimization relies on good keywords, inter-application cross-linking and easy social network sharing. We can use plugins to help fill those gaps. [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag) is a nice tool to help. We could also include some social network sharing buttons that auto open the logged in user to the specific social networks share page.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEO optimization generally has to be done manually. SEO optimization gets webapp pages hitting higher on unpaid search results. There are a lot of factors to take into consideration, but generally optimization relies on good keywords, inter-application cross-linking and easy social network sharing. We can use plugins to help fill those gaps. [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag){:target='_blank'} is a nice tool to help. We could also include some social network sharing buttons that auto open the logged in user to the specific social networks share page.
 
 #### Potential Security Issues
 
@@ -55,7 +55,7 @@ author: Michael Porter
 
 #### Wordpress
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today, the biggest webapp tool is definitely Wordpress. A lot of folks knock it for resource use, but it's huge strength is interface. Anyone can easily create a website on Wordpress with virtually no programming knowledge. Additionally, the more difficult to do things like handling database log-ins and transactions can be done with plugins. It's really easy to use and you can find a [TON](http://www.wpbeginner.com/showcase/40-most-notable-big-name-brands-that-are-using-wordpress/) of sites that use Wordpress. Although recently one of their most notable users, [The New York Times](https://open.nytimes.com/react-relay-and-graphql-under-the-hood-of-the-times-website-redesign-22fb62ea9764) has moved away from it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today, the biggest webapp tool is definitely Wordpress. A lot of folks knock it for resource use, but it's huge strength is interface. Anyone can easily create a website on Wordpress with virtually no programming knowledge. Additionally, the more difficult to do things like handling database log-ins and transactions can be done with plugins. It's really easy to use and you can find a [TON](http://www.wpbeginner.com/showcase/40-most-notable-big-name-brands-that-are-using-wordpress/){:target='_blank'} of sites that use Wordpress. Although recently one of their most notable users, [The New York Times](https://open.nytimes.com/react-relay-and-graphql-under-the-hood-of-the-times-website-redesign-22fb62ea9764){:target='_blank'} has moved away from it.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wordpress works out of a browser and it has a simple editing system, but it is slower, more prone to crashes and MUST be continuously updated. Security holes in plugins are constantly being found and updated. Because of these security holes, and Wordpress's popularity malware is prevalent.
 
