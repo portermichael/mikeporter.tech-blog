@@ -76,7 +76,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I chose Jekyll because I wanted to try out a static site generator and am familiar with Ruby. I considered something with more bells and whistles, but valued speed and price most.
 
-##### Footnotes:
+#### Footnotes:
 
 1. Every time a static site is updated, it's taken down for a few moments. It used to be minutes, but now it looks like seconds, if even that long. For me, this downtime doesn't matter.
 

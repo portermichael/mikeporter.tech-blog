@@ -50,6 +50,6 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I used [yellowblue](https://github.com/chalatz/yellowblue){:target='_blank'} and modified it. It helped me understand how someone else set up their system. If I were building a static site again, I would just build it from scratch. Modifying someone else's work isn't worth doing more than once.
 
-##### Footnotes:
+#### Footnotes:
 
 1. The $ denotes using the terminal, console or shell to type this code. You'll see it a lot while your programming, but for me on day 1, I didn't understand it.

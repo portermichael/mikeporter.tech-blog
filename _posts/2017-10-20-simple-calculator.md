@@ -6,7 +6,7 @@ tags: ['Portfolio']
 author: Michael Porter
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Calculator is the simple calculator for modern users. Without a sleeker design and less unnecessary buttons, simple calculator is easier and simpler to use. (Warning! Simple Calculator was built to discuss code, it is not necessarily easier or simpler to use!)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Calculator is the simple calculator for modern users. With an unkempt design and fewer buttons, simple calculator brings simple math to the modern age! (Warning! Simple Calculator was built to discuss code, it is not necessarily easier or simpler to use!)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Simple Calculator Code](https://github.com/portermichael/calculator){:target='_blank'}
 
@@ -16,7 +16,7 @@ author: Michael Porter
 
 <!-- more -->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Calculator was built for a job interview. It was built using Express.js and vanilla javascript. Simple first runs over the equation solving for multiplication and division, then does a second run through solving for addition and subtraction. Overall, we look at an O(n) runtime, where n is the number of elements in the equation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Simple Calculator was built for a job interview. It was built using Express.js and vanilla javascript. Numbers and operators are stored in an array. Simple calculator runs over the equation the first time solving for multiplication and division, then does a second run through solving for addition and subtraction. Overall, we look at an O(n) runtime, where n is the number of elements in the array.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I dropped the 0-9 digits we usually see, because I don't find them that helpful. Every calculator already has those digits. If we were really generating a calculator as a business, we would need to find a niche, and our niche isn't where everyone else is.
 

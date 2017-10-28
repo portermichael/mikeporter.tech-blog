@@ -25,7 +25,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The S3 setup for AWS is also [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html){:target='_blank'} if you want to look at an alternative solution sources.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will want to create two buckets. We don't need logging, but you could if you want to log your visitors.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will want to create two buckets.
 
 > example.com
 
@@ -33,7 +33,7 @@ author: Michael Porter
 
 > www.example.com
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are going to host our data on one, and use the other to redirect. This way if someone types www.example.com, they automatically get forwarded to example.com. Use your domain registrar name so you do not have to do this twice. We are going to host our data on example.com.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are going to host our data on one, and use the other to redirect. This way if someone types www.example.com, they automatically get forwarded to example.com. We are going to host our data on example.com.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The buckets we need a permissions policy so everyone can read them. We can edit ours by clicking on our example.com bucket, clicking properties on the right hand side and selecting permissions. A window with Grantee and your username should come up. Below that we are going to click edit bucket policy and add:
 
@@ -66,7 +66,7 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This creates s3_website.yml which stores our access keys and configuration options.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to head back to AWS S3 and get our secret keys. In the action bar under services, in the second column from the right is IAM, Identity and Access Management. We are going to generate some secret keys here so that our jekyll has permission to deploy to AWS.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to get our secret keys from IAM now. IAM is Identity and Access Management. It's one of the services bundled in AWS. Navigate to IAM.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move over to Users on the left hand side and Create New Users. Add a user name. After hitting create there is a link highlighted titled Show User Security Credentials. That has our access keys. Copy the access key id: and Secret Access Key: to somewhere secure.
 
@@ -89,4 +89,4 @@ author: Michael Porter
 
 #### Footnotes
 
-1. Fail Fast - As a developer you want to fail quickly, so you are aware of a bug. It is much harder to correct a bug after you've written lots of code.
+1. Fail Fast - As a developer you want to fail quickly, so you are aware of a bug when it occurs. It is much harder to correct a bug after you've written lots of code. If you build a whole website, and it isn't deploying, phew might have a couple hours of work to do.
