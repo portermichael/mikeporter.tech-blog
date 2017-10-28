@@ -92,8 +92,10 @@
 .outside-header {
 	color: $font-color;
 	text-shadow: 1px 1px 1px $outer-header-shadow-color;
-	background-color: $main-color;
-	padding: 0.25em 0;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid $site-header-bg;
 	.icon {
 		fill: $outer-header-icon-fill;
 	}

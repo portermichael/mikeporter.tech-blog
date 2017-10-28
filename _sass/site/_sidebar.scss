@@ -10,7 +10,10 @@
 	padding-bottom: 0em;
 
 	.module {
-		@include post;
+		background-color: #fff;
+		padding: .5em;
+		margin-bottom: 1em;
+		border: 1px solid lighten($site-header-bg, 10%);
 		padding: 0;
 	}
 
