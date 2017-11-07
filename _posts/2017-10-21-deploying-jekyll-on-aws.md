@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Deploying Jekyll on AWS
+title: Deploying and Redirecting Jekyll on AWS
 category: Deploy
 permalink: deploying-jekyll-on-aws.html
-tags: ['HowTo']
+tags: ['HowTo', 's3']
 author: Michael Porter
 ---
 
@@ -15,48 +15,90 @@ author: Michael Porter
 
 ### Hosting Providers
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ 'associating-domains-with-aws-route-53.html' }}) went over how to set up your route 53 with GoDaddy and NameCheap domain names.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We [previously]({{ 'associating-domains-with-aws-route-53.html' }}) went over how to set up your route 53 with GoDaddy and NameCheap domain names. Our first step from there is going to be setting up an S3 bucket. A bucket is a container that holds things. It can hold folders or any type of file. We're going to be using buckets to hold a bunch of files and folders that make up our website.
 
-#### Using S3_website to Host
+### Using S3_website to Host
 
-###### Set Up S3 Buckets
+#### Create Two S3 Buckets
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first step to getting hosted is setting up an S3 AWS bucket. From route 53 click services in the header and migrate to S3.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The official S3 setup for AWS and a static site is at [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html){:target='_blank'}. I thought it was difficult to read and didn't include any pictures.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The S3 setup for AWS is also [here](http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html){:target='_blank'} if you want to look at an alternative solution sources.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will want to create two buckets. I will be using example.com and www.example.com. You should use your domain name. We are going to host our website on example.com, and use the other to redirect. This way if someone types www.example.com, they automatically get forwarded to example.com (or vice versa, I mean you're the one setting it up).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We will want to create two buckets.
+![s3-Create-Bucket](/../../images/posts/deploying-jekyll-aws/s3CreateBucket.png)
 
-> example.com
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are going to create both buckets the same way. Click Create Bucket to open the modal. Add your domain name, check your region and click Create.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We aren't deploying a CDN now, so we can just choose a region in our country. We're also going to go over properties and permissions shortly, but it's harder in their tiny window.
 
-> www.example.com
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are going to host our data on one, and use the other to redirect. This way if someone types www.example.com, they automatically get forwarded to example.com. We are going to host our data on example.com.
+#### Give S3 Buckets Public Read Access
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The buckets we need a permissions policy so everyone can read them. We can edit ours by clicking on our example.com bucket, clicking properties on the right hand side and selecting permissions. A window with Grantee and your username should come up. Below that we are going to click edit bucket policy and add:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Both buckets will need a permissions policy so everyone can read them. We can edit ours by clicking on our bucket, clicking properties on the right hand side and selecting permissions. We want to give the public READ access to our bucket because we are hosting our website from the bucket. Do not give public WRITE access to your bucket. That would enable the public to change what is on your bucket.
 
-	{
-	"Version": "2012-10-17",
-	"Statement": [
-		{
-			"Sid": "PublicReadForGetBucketObjects",
-			"Effect": "Allow",
-			"Principal": {
-				"AWS": "*"
-			},
-			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::example.com/*"
-		}
-	]
-	}
+![s3-Permissions](/../../images/posts/deploying-jekyll-aws/s3Permissions.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just like before replace example.com with your domain name.
+### Website Hosting S3 Bucket
 
-###### Using s3_website gem
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under the properties tab configure our hosting bucket to a static website by inputting index.html and clicking save.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The instructions linked to above from amazon are cumbersome. There are a lot of steps to set up a static website, that we can avoid by using [s3_website gem](https://github.com/laurilehmijoki/s3_website){:target='_blank'}! First we need to install the gem
+![s3-Main-Host](/../../images/posts/deploying-jekyll-aws/s3MainHost.png)
+
+#### Change the CORS Configuration
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under the permissions tab, configure our CORS by pasting this code in and replacing example.com with the bucket name/website name you are using to host your website.
+
+>	{
+>	"Version": "2012-10-17",
+>	"Statement": [
+>		{
+>			"Sid": "PublicReadForGetBucketObjects",
+>			"Effect": "Allow",
+>			"Principal": {
+>				"AWS": "*"
+>			},
+>			"Action": "s3:GetObject",
+>			"Resource": "arn:aws:s3:::example.com/*"
+>		}
+>	]
+>	}
+
+![s3-CORS-Configuration](/../../images/posts/deploying-jekyll-aws/s3CorsPermissions.png)
+
+### Redirect Bucket
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Under the properties tab configure our redirect bucket to redirect by inputting our hosting/website bucket and clicking save.
+
+![s3-Redirect-Request](/../../images/posts/deploying-jekyll-aws/s3RedirectRequest.png)
+
+### Get IAM Secret keys
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our goal is to create a secret key that we can use to upload our website to the s3 bucket. We need to get our secret keys from IAM now. IAM is Identity and Access Management. It's one of the services bundled in AWS. Navigate to Services and find IAM.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+#### Create a Group
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are creating a group to manage security. We want this group to only have access to our s3 buckets. This way if we have a security issue, only s3 buckets would be compromised. Navigate to groups on the left of IAM and create a group name. Mine is called s3BucketAccess. Just click on through to next step using the default options.
+
+![IAM-Bucket-Access](/../../images/posts/deploying-jekyll-aws/IAMs3Access.png)
+
+#### Create a User and Add it to Group
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navigate to Users on the left hand side and Create New Users. Add a user name. Give yourself Programmatic access, so you have access to secret keys. Then add yourself to our newly created Group.
+
+![IAM-Programmatic-Access](/../../images/posts/deploying-jekyll-aws/IAMProgrammaticAccess.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lastly, navigate back to users, click your user name and select the Security Credentials tab. Create an access key and save it or copy it. We will need it later. This access key needs to be treated securely. If you upload it to github or post it online, it will get stolen and people will use access to your buckets for shady activities possibly costing you money.
+
+![IAM-Security-Credentials](/../../images/posts/deploying-jekyll-aws/IAMCreateAccessKey.png)
+
+### Using s3_website gem
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Like before the instructions form Amazon are a bit cumbersome. We can save a lot of time and effort by using the [s3_website gem](https://github.com/laurilehmijoki/s3_website){:target='_blank'}!
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First we need to install the gem
 
 > gem install s3_website
 
@@ -66,9 +108,8 @@ author: Michael Porter
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This creates s3_website.yml which stores our access keys and configuration options.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We need to get our secret keys from IAM now. IAM is Identity and Access Management. It's one of the services bundled in AWS. Navigate to IAM.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move over to Users on the left hand side and Create New Users. Add a user name. After hitting create there is a link highlighted titled Show User Security Credentials. That has our access keys. Copy the access key id: and Secret Access Key: to somewhere secure.
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Open the s3_website.yml we made a few minutes ago and input
 
