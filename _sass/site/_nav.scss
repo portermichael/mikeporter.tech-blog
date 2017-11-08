@@ -9,6 +9,7 @@
 	margin-top: 0.5em;
 	overflow: hidden;
 	background-color: $nav-bg-color;
+	border-bottom: 1px solid $nav-border-color;
 	ul {
 		margin-left: 0;
 		padding-left: 0;
@@ -27,7 +28,7 @@
 		color: $nav-font-color;
 
 		&:hover {
-			color: darken($bg-color, 40%);
+			color: $nav-hover-font-color;
 		}
 	}
 

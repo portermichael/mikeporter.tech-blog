@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Michael Porter
+title: Mike Porter
 permalink: /about/
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've been a Research Biologist for the past 8 years or so. I started learning to code in graduate school. I continued bringing the programming skills I learned into improving efficiency and adding some automation to my Biologist tasks.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I've been a research biologist for the past 8 years or so, working with Zebrafish, mice, hamsters, and cell cultures. I started learning to code independently towards the end of grad school. I continued coding and was able to bring the skills I learned and merged them with biology data analysis improving efficiency and adding some automation. I wanted to get better and attended a coding boot camp to supplement my self-taught skills.

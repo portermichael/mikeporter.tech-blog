@@ -1,30 +1,35 @@
 // ------- Yellowblue -------------------
 
-$main-color: #DCDCDC;
+$main-color: $white;
 
 // --- Body
 $font-color: #000000;
-$bg-color: #ffffff;
+$bg-color: $white;
 $link-color: $blue;
-// old header #B9DEB9, old secondary #7EA470, bg color c9c9c9
+// old header #B9DEB9, old secondary #7EA470, bg color c9c9c9, #808080
 // ---- Header
-$site-header-bg: #808080;
-$site-header-font-color: #ffffff;
+$site-header-bg: #7EA470;
+$site-header-font-color: $white;
 $site-logo-font-shadow: #000;
 
 // ---- Navigation
-$nav-bg-color: $main-color;
-$nav-font-color: $blue;
+$nav-bg-color: $white;
+$nav-border-color: $black;
+$nav-font-color: #000;
+$nav-hover-font-color: $blue;
 $nav-item-underline-color: darken($bg-color, 40%);
 $nav-item-underline-hover-color: $bg-color;
+$tag-label: $dark-gray;
+$nav-tag-label: $blue;
 
 // ---- Posts
 $post-title-hover-color: $blue;
-$read-more-bg: darken($main-color, 5%);
-$read-more-cross-bg: lighten($site-header-bg, 5%);
+$read-more-bg: lighten($site-header-bg, 25%);
+$read-more-container-border: lighten(#5F8FD6, 15%);
+$read-more-cross-bg: darken($main-color, 15%);
 $read-more-font-color: #000;
-$read-more-hover-bg: lighten($site-header-bg, 5%);
-$read-more-cross-hover-bg: darken($main-color, 5%);
+$read-more-hover-bg: darken($main-color, 5%);
+$read-more-cross-hover-bg: lighten($site-header-bg, 5%);
 $read-more-hover-color: #000;
 $hero-image-shadow: $dark-blue;
 $category-link-color: $dark-blue;
@@ -47,12 +52,12 @@ $tags-icon-fill: $dark-orange;
 }
 
 // ---- Pagination
-$current-page-bg: $main-color;
-$current-page-color: darken($bg-color, 45%);
+$current-page-bg: lighten(#5F8FD6, 15%);
+$current-page-color: $black;
 $pagination-link-color: $main-color;
-$pagination-link-bg: darken($bg-color, 45%);
+$pagination-link-bg: $black;
 $pagination-link-hover-bg: $main-color;
-$pagination-link-hover-color: darken($bg-color, 45%);
+$pagination-link-hover-color: $black;
 
 // ---- Posts Nav
 $posts-nav-color: $main-color;
@@ -88,7 +93,7 @@ $tag-label-font-color: $main-color;
 
 // ---- Outer Header
 $outer-header-color: $dark-blue;
-$outer-header-shadow-color: #fff;
+$outer-header-shadow-color: $white;
 $outer-header-icon-fill: $dark-blue;
 
 // ---- Outer Header span for category name
@@ -96,7 +101,7 @@ $outer-header-icon-fill: $dark-blue;
 // ---- Outer Header span for tag name
 .outside-tags {
 	color: $dark-red;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px $white;
 }
 
 // ---- Front Page Modules
@@ -106,11 +111,13 @@ $outer-header-icon-fill: $dark-blue;
 		h2 {
 			background-color: $main-color;
 			color: $font-color;
+			border-bottom: 1px solid $nav-border-color;
 		}
 	}
 	.module:nth-child(2) {
 		h2 {
 			background-color: $main-color;
+			border-bottom: 1px solid $nav-border-color;
 		}
 	}
 }
