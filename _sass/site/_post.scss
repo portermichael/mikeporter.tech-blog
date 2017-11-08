@@ -65,9 +65,11 @@
 	}
 	.cross {
 		background: $read-more-cross-bg;
-		padding: 0.15em .5em;
+		padding: 0em .5em;
 		float: left;
-		font-size: 1.5em;
+		text-align: center;
+		width: 2em;
+		line-height: 2.5em;
 		margin-left: 0em;
 		-webkit-transition: all .2s ease-in;
 		        transition: all .2s ease-in;

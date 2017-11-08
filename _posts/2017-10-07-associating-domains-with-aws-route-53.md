@@ -7,7 +7,6 @@ tags: ['HowTo', 'AWS', 'Route53']
 author: Michael Porter
 ---
 
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have a preference towards using specialized business services to fit my needs. It often has a bit more work associated, but I expect a higher degree of specialization should an issue crop up. In this case I purchased domain names on GoDaddy and NameCheap. I want to deploy them to AWS using an S3 bucket. But before deploying, I need to let AWS know I own these domains, and let GoDaddy and NameCheap know I want to use AWS to host! This can be done using Route 53 and GoDaddy/NameCheap's core website.
 
 <!-- more -->

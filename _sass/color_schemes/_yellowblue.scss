@@ -4,12 +4,12 @@ $main-color: $white;
 
 // --- Body
 $font-color: #000000;
-$bg-color: #ffffff;
+$bg-color: $white;
 $link-color: $blue;
 // old header #B9DEB9, old secondary #7EA470, bg color c9c9c9, #808080
 // ---- Header
 $site-header-bg: #7EA470;
-$site-header-font-color: #ffffff;
+$site-header-font-color: $white;
 $site-logo-font-shadow: #000;
 
 // ---- Navigation
@@ -25,7 +25,7 @@ $nav-tag-label: $blue;
 // ---- Posts
 $post-title-hover-color: $blue;
 $read-more-bg: lighten($site-header-bg, 25%);
-$read-more-container-border: $blue;
+$read-more-container-border: lighten(#5F8FD6, 15%);
 $read-more-cross-bg: darken($main-color, 15%);
 $read-more-font-color: #000;
 $read-more-hover-bg: darken($main-color, 5%);
@@ -52,7 +52,7 @@ $tags-icon-fill: $dark-orange;
 }
 
 // ---- Pagination
-$current-page-bg: $blue;
+$current-page-bg: lighten(#5F8FD6, 15%);
 $current-page-color: $black;
 $pagination-link-color: $main-color;
 $pagination-link-bg: $black;
@@ -93,7 +93,7 @@ $tag-label-font-color: $main-color;
 
 // ---- Outer Header
 $outer-header-color: $dark-blue;
-$outer-header-shadow-color: #fff;
+$outer-header-shadow-color: $white;
 $outer-header-icon-fill: $dark-blue;
 
 // ---- Outer Header span for category name
@@ -101,7 +101,7 @@ $outer-header-icon-fill: $dark-blue;
 // ---- Outer Header span for tag name
 .outside-tags {
 	color: $dark-red;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px $white;
 }
 
 // ---- Front Page Modules

@@ -6,16 +6,15 @@
 
 button,
 .btn {
-	border: 0;
+	border: 1px solid $read-more-container-border;
 	padding: $btn-baseline $btn-side-padding;
 	border-radius: $btn-roundness;
 	text-align: center;
 	display: inline-block;
-	background-color: $light-gray;
+	background-color: $read-more-bg;
 
 	&:hover {
-		background: $bg-color-dark;
-		color: #fff;
+		background: $read-more-cross-hover-bg;
 	}
 
 	&:active {
