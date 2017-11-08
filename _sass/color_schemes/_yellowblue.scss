@@ -1,6 +1,6 @@
 // ------- Yellowblue -------------------
 
-$main-color: #517D51;
+$main-color: $white;
 
 // --- Body
 $font-color: #000000;
@@ -13,17 +13,20 @@ $site-header-font-color: #ffffff;
 $site-logo-font-shadow: #000;
 
 // ---- Navigation
-$nav-bg-color: $main-color;
+$nav-bg-color: $white;
+$nav-border-color: $black;
 $nav-font-color: #000;
+$nav-hover-font-color: $blue;
 $nav-item-underline-color: darken($bg-color, 40%);
 $nav-item-underline-hover-color: $bg-color;
 $tag-label: $dark-gray;
-$nav-tag-label: #000;
+$nav-tag-label: $blue;
 
 // ---- Posts
 $post-title-hover-color: $blue;
-$read-more-bg: lighten($site-header-bg, 5%);
-$read-more-cross-bg: darken($main-color, 5%);
+$read-more-bg: lighten($site-header-bg, 25%);
+$read-more-container-border: $blue;
+$read-more-cross-bg: darken($main-color, 15%);
 $read-more-font-color: #000;
 $read-more-hover-bg: darken($main-color, 5%);
 $read-more-cross-hover-bg: lighten($site-header-bg, 5%);
@@ -108,11 +111,13 @@ $outer-header-icon-fill: $dark-blue;
 		h2 {
 			background-color: $main-color;
 			color: $font-color;
+			border-bottom: 1px solid $nav-border-color;
 		}
 	}
 	.module:nth-child(2) {
 		h2 {
 			background-color: $main-color;
+			border-bottom: 1px solid $nav-border-color;
 		}
 	}
 }

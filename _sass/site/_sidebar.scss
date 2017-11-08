@@ -10,10 +10,11 @@
 	padding-bottom: 0em;
 
 	.module {
-		background-color: #fff;
+		background-color: none;
 		padding: .5em;
 		margin-bottom: 1em;
-		border: 1px solid lighten($site-header-bg, 10%);
+		border: 1px solid $nav-border-color;
+		border-radius: 10%;
 		padding: 0;
 	}
 
@@ -28,6 +29,8 @@
 		h2 {
 			margin: 0;
 			padding: $side-padding;
+			border-top-left-radius: 50%;
+			border-top-right-radius: 50%;
 		}
 	}
 
