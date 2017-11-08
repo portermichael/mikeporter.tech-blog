@@ -1,30 +1,32 @@
 // ------- Yellowblue -------------------
 
-$main-color: #DCDCDC;
+$main-color: #517D51;
 
 // --- Body
 $font-color: #000000;
 $bg-color: #ffffff;
 $link-color: $blue;
-// old header #B9DEB9, old secondary #7EA470, bg color c9c9c9
+// old header #B9DEB9, old secondary #7EA470, bg color c9c9c9, #808080
 // ---- Header
-$site-header-bg: #808080;
+$site-header-bg: #7EA470;
 $site-header-font-color: #ffffff;
 $site-logo-font-shadow: #000;
 
 // ---- Navigation
 $nav-bg-color: $main-color;
-$nav-font-color: $blue;
+$nav-font-color: #000;
 $nav-item-underline-color: darken($bg-color, 40%);
 $nav-item-underline-hover-color: $bg-color;
+$tag-label: $dark-gray;
+$nav-tag-label: #000;
 
 // ---- Posts
 $post-title-hover-color: $blue;
-$read-more-bg: darken($main-color, 5%);
-$read-more-cross-bg: lighten($site-header-bg, 5%);
+$read-more-bg: lighten($site-header-bg, 5%);
+$read-more-cross-bg: darken($main-color, 5%);
 $read-more-font-color: #000;
-$read-more-hover-bg: lighten($site-header-bg, 5%);
-$read-more-cross-hover-bg: darken($main-color, 5%);
+$read-more-hover-bg: darken($main-color, 5%);
+$read-more-cross-hover-bg: lighten($site-header-bg, 5%);
 $read-more-hover-color: #000;
 $hero-image-shadow: $dark-blue;
 $category-link-color: $dark-blue;
@@ -47,12 +49,12 @@ $tags-icon-fill: $dark-orange;
 }
 
 // ---- Pagination
-$current-page-bg: $main-color;
-$current-page-color: darken($bg-color, 45%);
+$current-page-bg: $blue;
+$current-page-color: $black;
 $pagination-link-color: $main-color;
-$pagination-link-bg: darken($bg-color, 45%);
+$pagination-link-bg: $black;
 $pagination-link-hover-bg: $main-color;
-$pagination-link-hover-color: darken($bg-color, 45%);
+$pagination-link-hover-color: $black;
 
 // ---- Posts Nav
 $posts-nav-color: $main-color;
