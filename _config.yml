@@ -2,7 +2,7 @@
 title: Mike Porter
 email: Porter.Michael.James@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Mike Porter's programming blog. Geared towards programmers early in their career, I write what I think is best and why. But, that doesn't mean it's  best in every situation.
+  Mike Porter's programming blog. Geared towards programmers early in their career, I write what I think is best and why. But, that doesn't mean it's best in every situation.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "mikeporter.tech" # the base hostname & protocol for your site
 twitter_username: ''
