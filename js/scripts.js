@@ -27,18 +27,7 @@
 
 	}
 
-	function handle_fluidbox(){
-		$('.image-link').fluidbox();
-	}
-
 	handle_show_code();
-	handle_fluidbox();
-
-	// scroll reveal initialization
-	// ----- If you don't want the animations, just comment or delete the following line (window.sr = new scrollReveal();)
-	// if you don't want the extra HTTP request either just go to _includes/footer.html and delete/comment the line with
-	// the script tag that loads scrollreveal.js
-	window.sr = new scrollReveal();
 
 
 	//======= PLACE YOUR CUSTOM CODE BELOW THIS LINE ==========
