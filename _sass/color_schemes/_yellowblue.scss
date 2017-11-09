@@ -25,7 +25,7 @@ $nav-tag-label: $blue;
 // ---- Posts
 $post-title-hover-color: $blue;
 $read-more-bg: lighten($site-header-bg, 25%);
-$read-more-container-border: lighten(#5F8FD6, 15%);
+$read-more-container-border: lighten($black, 25%);
 $read-more-cross-bg: darken($main-color, 15%);
 $read-more-font-color: #000;
 $read-more-hover-bg: darken($main-color, 5%);
@@ -52,11 +52,11 @@ $tags-icon-fill: $dark-orange;
 }
 
 // ---- Pagination
-$current-page-bg: lighten(#5F8FD6, 15%);
+$current-page-bg: lighten(#5F8FD6, 20%);
 $current-page-color: $black;
 $pagination-link-color: $main-color;
 $pagination-link-bg: $black;
-$pagination-link-hover-bg: $main-color;
+$pagination-link-hover-bg: lighten(#5F8FD6, 20%);
 $pagination-link-hover-color: $black;
 
 // ---- Posts Nav
@@ -74,7 +74,7 @@ $go-top-fill-hover: #fff;
 }
 
 // ---- Footer
-$site-footer-bg: darken($bg-color, 45%);
+$site-footer-bg: $white;
 $site-footer-font-color: #fff;
 $site-footer-link-color: $main-color;
 $social-icons-hover: $main-color;
