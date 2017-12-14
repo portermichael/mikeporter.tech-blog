@@ -1,19 +1,9 @@
-/**
- * ======================================
- * --------------- GRID -----------------
- * ======================================
- */
+.highlight {
+	padding: 1em 1.5em;
+	background: $read-more-cross-bg;
+	border: 1px solid $light-gray;
+}
 
-/**
- * I believe that grids with too many columns are unnecessary
- * In most cases we need to use at most 4 columns
- * So this grid deals with sections that are of full, half, one third and a quarter of width.
- */
-
-
-/**
- * The grid modules are placed in containers with a class of .row
- */
 .row {
 	@include clearfix;
 	margin-bottom: $baseline;
@@ -35,7 +25,7 @@
 	}
 
 	.block-module-header {
-		
+
 		h3 {
 			margin: 0;
 			padding: .5em;
@@ -56,88 +46,7 @@
 	}
 }
 
-/**
- * Modules and tables with a .yellow-var (yellow variation) class have their headings with a light blue background
- */
-.yellow-var {
-	h3, h2, th {
-		background: yellow;
-	}
-}
 
-/**
- * ======= Grid widths =============
- */
-.full-width {
-	width: 100%;
-}
-
-.full-width, .half-width, .one-third-width, .two-thirds-width, .a-quarter-width {
-	width: 100%;
-	margin-bottom: $baseline;
-	padding: .5em;
-	@include breakpoint(medium) {
-		float: left;
-		margin-right: 2%;
-		margin-bottom: 0;
-		&:last-child {
-			margin-right: 0;
-		}
-	}
-}
-
-/**
- * Gutters have a width of 2%.
- */
-@mixin calc-width($columns, $gutter) {
-	width: (100/$columns - ($gutter - $gutter/$columns)) * 1%;
-}
-
-.half-width {
-	@include breakpoint(medium) {
-		@include calc-width(2,2);
-	}
-}
-
-.one-third-width {
-	@include breakpoint(medium) {
-		@include calc-width(3,2);
-	}
-}
-
-.two-thirds-width {
-	@include breakpoint(medium) {
-		@include calc-width(1.5,2);
-	}
-}
-
-.a-quarter-width {
-	@include breakpoint(medium) {
-		@include calc-width(2,2);
-		margin-bottom: $baseline;
-		&:nth-of-type(2) {
-			margin-right: 0;
-		}
-	}
-	@include breakpoint(large) {
-		@include calc-width(4,2);
-		margin-bottom: 0;
-		&:nth-of-type(2) {
-			margin-right: 2%;
-		}
-
-	}
-}
-
-/**
- * This is just for demo purposes for the pattern library page
- */
-.patterns-grid {
-	.full-width, .half-width, .one-third-width, .two-thirds-width, .a-quarter-width {
-		background-color: $bg-color;
-		border-radius: 3px;
-	}
-}
 /*----------------END GRID -------------------*/
 
 // ---- This makes tables responsive
@@ -151,7 +60,6 @@
 .main-content {
 	margin-top: $baseline;
 	padding: 0 $side-padding;
-	border-top: 1px solid #000000;
 } // .main-content
 
 /**
