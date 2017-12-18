@@ -163,6 +163,8 @@ fFfF -> error
 -> 5) 00000000-00000000-11111111 -> 6) 255
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You'll notice we never assign a step to `255-0-0`. During this step we are converting a hexidecimal value to a base 10 decimal value. We're doing it for our visual clarity here and will address it in the next post.
+
 ### Next Steps
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We've made some good breakdown progress and we should feel good about it. We can write individual functions to handle each of these tasks, and break down the more complicated aspects of those functions. Writing it down like this, it takes time and effort, but we'll never make a mistake. Our code will be logical, sound and without bugs.
